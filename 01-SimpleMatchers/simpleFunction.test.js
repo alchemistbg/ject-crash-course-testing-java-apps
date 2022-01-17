@@ -1,6 +1,11 @@
 const simpleFunction = require('./simpleFunction');
 
 describe('Testing sum function', () => {
+
+    it('should be defined', () => {
+        expect(simpleFunction).toBeDefined();
+    });
+
     it('should check if 1 + 2 us equal to 3', () => {
         const result = simpleFunction(1, 2);
         expect(result).toBe(3);
@@ -67,6 +72,7 @@ describe('Testing arrays', () => {
         expect(shoppingList).toContain("milk");
     });
 });
+
 
 function badFunction() {
     throw new Error("Something went wrong");
