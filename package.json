@@ -1,0 +1,26 @@
+{
+  "name": "jestcrashcourse-testingjavaapps",
+  "version": "1.0.0",
+  "description": "This project is based on the following tutorial: [Jest Crash Course - Learn How to Test your JavaScript Application](https://www.youtube.com/watch?v=ajiAl5UNzBU)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alchemistbg/jest-crash-course-testing-java-apps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alchemistbg/jest-crash-course-testing-java-apps/issues"
+  },
+  "homepage": "https://github.com/alchemistbg/jest-crash-course-testing-java-apps#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
